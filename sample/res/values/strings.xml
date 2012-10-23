@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Chooser</string>
+    <string name="title_activity_programamtically">Programmatically</string>
+    <string name="title_activity_xml">XML</string>
+    
+    <string name="i">I</string>
+    <string name="you">You</string>
+    <string name="like">like</string>
+    <string name="hate">hate</string>
+    <string name="choose">choose</string>
+    <string name="pikachu">Pikachu</string>
+    <string name="lemons">lemons</string>
+    <string name="obama">Obama</string>
+    <string name="apples">apples</string>
+    <string name="trains">trains</string>
+
+</resources>

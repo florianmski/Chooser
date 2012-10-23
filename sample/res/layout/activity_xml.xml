@@ -1,0 +1,65 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutChooser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.florianmski.chooser.ChooserView
+            android:id="@+id/ChooserWeapon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/weapon1"
+                style="@style/TextViewGW2Weapon"
+                android:drawableTop="@drawable/gw2_weapon1"
+                android:textColor="#D5BE22" />
+
+            <TextView
+                android:id="@+id/weapon2"
+                style="@style/TextViewGW2Weapon"
+                android:drawableTop="@drawable/gw2_weapon2"
+                android:textColor="#507FC5" />
+        </com.florianmski.chooser.ChooserView>
+
+        <com.florianmski.chooser.ChooserView
+            android:id="@+id/ChooserCarac"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/carac1"
+                style="@style/TextViewGW2"
+                android:text="Rare\nPistol\n(Either Hand)\nWeapon Strength: 366 - 429\n21 Precision\n30 Condition Damage\n\nRequired Level: 40" />
+
+            <TextView
+                android:id="@+id/carac2"
+                style="@style/TextViewGW2"
+                android:text="Fine\nPistol\n(Either Hand)\nWeapon Strength: 441 - 518\n40 Power\n +2% Critical Damage\n\nRequired Level: 57" />
+        </com.florianmski.chooser.ChooserView>
+
+        <com.florianmski.chooser.ChooserView
+            android:id="@+id/ChooserSpe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/spe1"
+                style="@style/TextViewGW2"
+                android:text="+3% Damage"
+                android:textColor="#507FC5" />
+
+            <TextView
+                android:id="@+id/spe2"
+                style="@style/TextViewGW2"
+                android:text="+1% Critical Damage"
+                android:textColor="#507FC5" />
+        </com.florianmski.chooser.ChooserView>
+    </LinearLayout>
+
+</ScrollView>
